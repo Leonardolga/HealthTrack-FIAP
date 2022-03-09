@@ -1,0 +1,192 @@
+body{
+  background-color:rgba(8,80,120,.8);
+  background-size: cover;
+  font-size: 100%;
+ }
+ .html{
+  height: 100%;
+ }
+.containerTotal{
+  color: black;
+  height: 100%;
+}
+
+.card {
+  margin-top: 3%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  padding: 2% 2%;
+  align-items: center;
+} 
+.tentativa img{
+  display:flex;
+  height: auto;
+  position: relative;
+  max-width: 90%;
+  align-items: center;
+  border-radius: 25rem;
+}
+.tentativa{
+  display:flex;
+  height: auto;
+  position: relative;
+  padding: auto;
+  justify-content:left;
+  margin-left:auto;
+  margin-right:auto;
+}
+.tentativa a{
+  position: relative;
+  max-width: 20%;
+  font-size: 1vmin;
+}
+.card p{
+  font-size: 2.5vmin;
+  height: auto;
+  margin: 5%;
+  align-items: center;
+  justify-content: space-between;
+}
+.card a{
+  display: flex;
+  font-size: 1vmin;
+  align-items: top;
+  justify-content: space-between;
+}
+.card img{
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  padding: 0px 2%;
+}
+.plano {
+background-color: #2196F3;
+max-width: auto;
+color: white;
+font-size: 3vmin;
+border-radius: .5rem;
+margin-bottom: 3%;
+}
+.Paravoce{
+  margin-top: 5%;
+  color: #fff;
+  display:flex;
+  padding: 0  20%;
+  flex-direction: row;
+
+}
+.Botoes{
+  align-items: center;
+  margin-top: 3%;
+  justify-content:space-evenly;
+  position: relative;
+  width: 90%;
+  height: auto;
+  flex-direction: row;
+  display: flex;
+  padding: 2% 2%;
+
+}
+.BotaoConsulta button{
+  padding: 30% 80%;
+  display: flex;
+  border-radius: 0.5rem;
+  align-items: center;
+  background-color: orange;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size:2vmin;
+}
+.BotaoCalendario button{
+  padding: 25% 60%;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  background-color: orange;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 2vmin;
+
+}
+.Botoes button:hover{
+  color: purple;
+}
+
+.Imagens{
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.Atividades{
+  width: 40%;
+  height: 10vh;
+  display:flex;
+  align-items: center;
+  font-size:5vmin;
+  border-radius: 0.5rem;
+  justify-content: center;
+  background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,0)),
+   url(./imagem/atividades.jpg);
+  background-size: cover;
+  background-position:50%;
+  flex-direction: column;
+  transition: .5s;
+}
+.Atividades a:hover{
+  color: purple;
+}
+.Atividades a{
+  color: orange;
+}
+.Alimentacao{
+  margin-top: 5%;
+  width: 40%;
+  height: 10vh;
+  display:flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  font-size: 5vmin;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,0)),
+   url(./imagem/alimentos.jpg);
+  background-size:cover;
+  background-position:50%;
+  flex-direction: column;
+  transition: .5s;
+}
+.Alimentacao a{
+  color: orange;
+}
+.Alimentacao a:hover{
+  color: purple;
+}
+.TermoAjuda{
+  margin-top:5%;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.TermoAjuda a{
+  color:white
+}
+.TermoAjuda a:hover{
+  color: purple;
+}

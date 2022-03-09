@@ -1,0 +1,113 @@
+body{
+  background-color:rgba(8,80,120,.8);
+  background-size: cover;
+}
+html{
+    height: 100%;
+}
+.Calendario{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    color: white;
+    width: 70%;
+    height: auto;
+    padding: 0 3%;
+    height: auto;
+    background: rgba(215, 215, 215, 0.5);
+    text-align: center;
+    font-size: 6vmin;    
+} 
+.Calendario a{
+    color:black;
+}
+.ContaCaloriaTitulo{
+    display: flex;
+    flex-direction: row;
+    color:black;
+    height: auto;
+    padding: 0 3%;
+    font-size: 5vmin;
+    text-align: left;
+    background: rgba(215, 215, 215, 0.9);
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ContaCaloria{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    color:black;
+    padding: 0 3%;
+    font-size: 4vmin;
+    text-align: left;
+    background: rgba(215, 215, 215, 0.9);
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ContaCaloriaLegenda{
+    display: flex;
+    justify-content:space-between;
+    vertical-align:text-top;
+    flex-direction: row;
+    color:black;
+    padding: 0 3%;
+    font-size: 2vmin;
+    text-align: center;
+    background: rgba(215, 215, 215, 0.9);
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.CafeDaManha{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    color:black;
+    padding: 0 3%;
+    font-size: 4vmin;
+    text-align: left;
+    background: white; 
+    margin-top: 3%;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.AdicionarComida{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    color:white;
+    padding: 0 3%;
+    font-size: 4vmin;
+    text-align: left;
+    background: rgba(255, 153, 0, 0.281); 
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.AdicionarComida i {
+    color:black;
+}
+.Botao{
+  align-items: center;
+  margin-top: 3%;
+  justify-content:center ;
+  position: relative;
+  height: auto;
+  flex-direction: row;
+  display: flex;
+}
+.sugestao{
+    display:flex;
+    background-color: rgba(255, 153, 0, 0.6);
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+    font-size:5vmin;
+}
